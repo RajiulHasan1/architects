@@ -1,0 +1,60 @@
+/* Header */
+
+.header-mainpart {
+    background-color: rgba(255, 144, 14, 0.1);
+    position: absolute;
+    width: 100%;
+    height: 900px;
+    left: 0px;
+    top: 0px;
+}
+
+/* Header-Menu */
+.header-menu {
+    display: flex;
+    justify-content: space-between
+}
+
+.header-menu h1{
+    margin-left: 120px;
+}
+
+.header-menubar {
+    width: 500px;
+    height: 50px;
+    margin-top: 28px;
+}
+
+.header-menubar a{
+    text-decoration: none;
+    padding-right: 60px;
+}
+
+/* Header-Paragraph */
+
+.header-paragraph {
+   text-align: center;
+   padding-top: 65px;
+    margin-bottom: 40px;
+}
+
+.header-paragraph h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.header-paragraph a button{
+    background-color: rgb(252, 171, 20);
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 130px;
+    color: whitesmoke;
+    margin-top: 15px;
+}
+
+.header-img img {
+    width: 850px;
+    margin-left: 240px;
+    margin-top: 20px;
+}
