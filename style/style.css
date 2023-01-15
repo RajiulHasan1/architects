@@ -3,7 +3,7 @@
 /* Header */
 
 .header-mainpart {
-    background-color: rgba(255, 144, 14, 0.1);
+    background-color: rgb(252, 248, 247);
     width:  1341px;
     height: 900px;
 }
@@ -197,4 +197,90 @@ font-weight: 600;
 .section4 h1{
     font-size: 30px;
     font-weight: 700;
+}
+
+/* section5 */
+
+.section5{
+ display: flex;
+ justify-content: space-evenly;
+ margin-top: 75px;
+}
+
+.section5-awards{
+    width: 139px;
+    height: 135px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 15px;
+    border: 2px solid orangered;
+}
+
+.section5-project{
+    width: 139px;
+    height: 135px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 15px;
+    border: 2px solid orangered;
+}
+
+.section5-work{
+    width: 139px;
+    height: 135px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 15px;
+    border: 2px solid orangered;
+}
+
+.section5-email{
+    width: 139px;
+    height: 135px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 15px;
+    border: 2px solid orangered;
+}
+
+/* section6 */
+
+.section6{
+    text-align: center;
+    margin-top: 130px;
+}
+
+.section6 h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* section7 */
+
+.section7{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 75px;
+    margin-bottom: 95px;
+}
+
+.section7 img{
+    width: 110px;
+}
+
+/* Footer */
+
+.footer-paragraph{
+    width: 924px;
+    height: 60px;
+    background-color: antiquewhite;
+    margin-left: 195px;
+    margin-bottom: 150px;
+    margin-top: 50px;
+    border-radius: 5px
+}
+
+.footer-paragraph p{
+    text-align: center;
+    padding: 21px;
 }
